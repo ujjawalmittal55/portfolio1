@@ -1,0 +1,8 @@
+.form {
+  display: grid;
+  margin-top: 30vh;
+  margin-left: 12vw;
+}
+.elements {
+  margin-bottom: 10px;
+}

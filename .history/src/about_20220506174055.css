@@ -1,0 +1,11 @@
+.about {
+  margin-left: 30vh;
+  margin-top: 30vh;
+  display: flex;
+  flex-direction: row;
+}
+.details {
+  margin: 2vh;
+  display: grid;
+  font-family: "Source Code Pro", monospace;
+}

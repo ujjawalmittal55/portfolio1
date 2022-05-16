@@ -1,0 +1,6 @@
+.about {
+  margin-left: 30vh;
+  margin-top: 30vh;
+  display: flex;
+  flex-direction: row;
+}

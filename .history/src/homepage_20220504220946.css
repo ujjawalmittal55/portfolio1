@@ -1,0 +1,7 @@
+.Home
+{
+   background-image: url("/public/bg.jpg");
+    background-size: cover;
+    display:flex;
+    float: left;
+}

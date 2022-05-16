@@ -1,0 +1,14 @@
+import React from "react";
+import { Link } from "react-router-dom";
+function Document() {
+  return (
+    <div>
+      Document
+      <Link to="/public/Resume.pdf" download>
+        Resume
+      </Link>
+    </div>
+  );
+}
+
+export default Document;

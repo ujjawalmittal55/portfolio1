@@ -1,0 +1,14 @@
+.display {
+  display: flex;
+  text-align: center;
+  height: 100vh;
+}
+.name {
+  margin-top: 60%;
+  margin-left: 12%;
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.5em;
+}
+.role {
+  font-family: "Montserrat", monospace;
+}

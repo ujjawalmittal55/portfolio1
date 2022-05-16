@@ -1,0 +1,9 @@
+.Home {
+  background-image: url("/public/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.main_content {
+  flex: 1;
+}

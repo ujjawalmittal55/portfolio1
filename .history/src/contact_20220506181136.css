@@ -1,0 +1,9 @@
+.form {
+  display: grid;
+  margin-top: 30vh;
+  margin-left: 12vw;
+  width: 30%;
+}
+.elements {
+  margin-bottom: 10px;
+}

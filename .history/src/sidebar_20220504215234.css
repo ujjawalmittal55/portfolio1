@@ -1,0 +1,38 @@
+.sidebar {
+    width: 35vh;
+    height: 100%;
+    /* background-color: rgb(221, 195, 195) */
+}
+
+.sidebar{
+    margin-top: 50vh;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.list {
+    font-size: 1em;
+    margin-bottom: 1.25em;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    padding: auto;
+    transition-duration: 0.5s;
+}
+
+.list:hover {
+    text-decoration: underline;
+    font-size: 1.25em;
+}
+
+.list-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 2em;
+    width: 2em;
+    background-color: rgb(242, 244, 245);
+    border-radius: 50%;
+}
