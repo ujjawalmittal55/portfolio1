@@ -1,21 +1,14 @@
-.contact_ME {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-}
 .contact {
   /* position: absolute; */
   margin-top: 30vh;
-  margin-bottom: 5vhrgb (233, 231, 234);
+  margin-left: 12vw;
 }
 .form {
-  background-color: rgb(220, 221, 224);
+  background-color: rgb(136, 225, 252);
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-left: 12vw;
   width: 35%;
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 3vh;
@@ -76,10 +69,13 @@
   box-shadow: 0 0 0.5rem 0.5rem rgb(18, 181, 200);
 }
 .social {
-  display: flex;
+  display: grid;
   text-align: center;
+  margin-top: 3vh;
+  margin-left: 20vw;
   width: 35%;
-  flex-direction: column;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 3vh;
   align-content: center;
   justify-content: center;
   align-items: center;

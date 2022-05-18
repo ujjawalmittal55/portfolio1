@@ -36,7 +36,7 @@ function Contact() {
     clearState();
   };
   return (
-    <div className="contact_ME">
+    <div>
       <motion.div className="contact"> Contact Me</motion.div>
       <motion.form
         className="form"
@@ -92,7 +92,7 @@ function Contact() {
         initial="hidden"
         animate="visible"
       >
-        Catch me on social
+        <span>Catch me on social</span>
         <a href="https://github.com/ujjawalmittal55" target="_blank">
           <GitHub />{" "}
         </a>

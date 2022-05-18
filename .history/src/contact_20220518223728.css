@@ -1,14 +1,7 @@
-.contact_ME {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-}
 .contact {
   /* position: absolute; */
   margin-top: 30vh;
+  margin-left: 25vw;
   margin-bottom: 5vhrgb (233, 231, 234);
 }
 .form {
@@ -16,6 +9,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-left: 12vw;
   width: 35%;
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 3vh;
@@ -78,6 +72,8 @@
 .social {
   display: flex;
   text-align: center;
+  margin-top: 3vh;
+  margin-left: 20vw;
   width: 35%;
   flex-direction: column;
   align-content: center;

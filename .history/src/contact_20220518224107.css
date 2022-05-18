@@ -9,6 +9,7 @@
 .contact {
   /* position: absolute; */
   margin-top: 30vh;
+  margin-left: 25vw;
   margin-bottom: 5vhrgb (233, 231, 234);
 }
 .form {
@@ -16,6 +17,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-left: 12vw;
   width: 35%;
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 3vh;

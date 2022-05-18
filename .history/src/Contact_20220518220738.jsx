@@ -36,8 +36,7 @@ function Contact() {
     clearState();
   };
   return (
-    <div className="contact_ME">
-      <motion.div className="contact"> Contact Me</motion.div>
+    <div>
       <motion.form
         className="form"
         initial={{ y: "-100vh" }}
@@ -49,10 +48,15 @@ function Contact() {
           whileFocus="hover"
           className="Input"
           placeholder="email"
+          whileTap={{
+            borderColor: "pink",
+            boxShadow: "0 0 0.5rem 0.5rem pink",
+          }}
           type="email"
           onChange={(e) => setEmail(e.target.value)}
           value={email}
         />
+        <span className="elements">name</span>
         <input
           className="Input"
           type="text"
@@ -60,6 +64,7 @@ function Contact() {
           onChange={(e) => setName(e.target.value)}
         />
 
+        <span className="elements">phone no.</span>
         <input
           className="Input"
           type="number"
@@ -67,6 +72,7 @@ function Contact() {
           onChange={(e) => setPhone(e.target.value)}
         />
 
+        <span className="elements">Query</span>
         <textarea
           className="Input"
           maxLength="500"
@@ -92,7 +98,6 @@ function Contact() {
         initial="hidden"
         animate="visible"
       >
-        Catch me on social
         <a href="https://github.com/ujjawalmittal55" target="_blank">
           <GitHub />{" "}
         </a>

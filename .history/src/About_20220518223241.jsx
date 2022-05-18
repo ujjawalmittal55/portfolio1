@@ -11,10 +11,10 @@ function About() {
     <div className="about">
       <div className="details ">
         <h1>
-          <motion.span className="nowrap">
+          <span className="nowrap">
             Hi! I am Ujjawal
             <Mic onClick={play} className="audio" />
-          </motion.span>
+          </span>
         </h1>
         <motion.p
           initial={{ y: "100vh" }}

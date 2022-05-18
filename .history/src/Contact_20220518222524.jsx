@@ -36,8 +36,14 @@ function Contact() {
     clearState();
   };
   return (
-    <div className="contact_ME">
-      <motion.div className="contact"> Contact Me</motion.div>
+    <div>
+      <motion.div className="contact">
+        {" "}
+        Contact Me
+        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+          <path d="M670 12780 c-11 -11 -20 -33 -20 -49 0 -23 8 -34 36 -52 48 -30 69 -17 68 40 -1 42 -25 81 -51 81 -7 0 -22 -9 -33 -20z" />
+        </svg>
+      </motion.div>
       <motion.form
         className="form"
         initial={{ y: "-100vh" }}
@@ -92,7 +98,6 @@ function Contact() {
         initial="hidden"
         animate="visible"
       >
-        Catch me on social
         <a href="https://github.com/ujjawalmittal55" target="_blank">
           <GitHub />{" "}
         </a>

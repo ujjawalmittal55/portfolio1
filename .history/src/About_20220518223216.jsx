@@ -11,10 +11,10 @@ function About() {
     <div className="about">
       <div className="details ">
         <h1>
-          <motion.span className="nowrap">
+          <span className="nowrap">
             Hi! I am Ujjawal
             <Mic onClick={play} className="audio" />
-          </motion.span>
+          </span>
         </h1>
         <motion.p
           initial={{ y: "100vh" }}
@@ -24,21 +24,21 @@ function About() {
           I am pursuing my graduation from IIT Indore in Mechanical Engineering
         </motion.p>
         <motion.p
-          initial={{ y: "-100vh" }}
+          initial={{ y: "100vh" }}
           animate={{ y: 0 }}
           transition={{ duration: 2, type: "fade" }}
         >
           I am web enthuist
         </motion.p>
         <motion.p
-          initial={{ y: "100vw" }}
+          initial={{ y: "100vh" }}
           animate={{ y: 0 }}
           transition={{ duration: 2, type: "fade" }}
         >
           This is my portfolio site{" "}
         </motion.p>
         <motion.p
-          initial={{ y: "-100vw" }}
+          initial={{ y: "100vh" }}
           animate={{ y: 0 }}
           transition={{ duration: 2, type: "fade" }}
         >

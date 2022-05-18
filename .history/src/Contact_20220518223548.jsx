@@ -36,7 +36,7 @@ function Contact() {
     clearState();
   };
   return (
-    <div className="contact_ME">
+    <div>
       <motion.div className="contact"> Contact Me</motion.div>
       <motion.form
         className="form"

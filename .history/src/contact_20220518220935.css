@@ -1,21 +1,10 @@
-.contact_ME {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-.contact {
-  /* position: absolute; */
-  margin-top: 30vh;
-  margin-bottom: 5vhrgb (233, 231, 234);
-}
 .form {
-  background-color: rgb(220, 221, 224);
+  background-color: rgb(136, 225, 252);
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-top: 30vh;
+  margin-left: 12vw;
   width: 35%;
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 3vh;
@@ -31,13 +20,14 @@
   font-weight: bold;
 }
 .button {
-  /* margin-left: 10px; */
-  text-align: center;
+  margin-left: 10px;
+  grid-column-start: 1;
+  grid-column-end: 3;
   width: 30%;
+  margin-left: 25%;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
-  margin-bottom: 1em;
   text-decoration: none;
   text-transform: uppercase;
   color: #000;
@@ -67,19 +57,21 @@
 .Input {
   margin-top: 5px;
   margin-right: 5px;
-  width: 80%;
-  height: 2em;
-  border-radius: 0.5em;
+  border-radius: 7%;
+
+  border: 2px solid rgb(22, 22, 40);
 }
-.Input:focus {
-  border: 2px solid rgb(44, 230, 2);
-  box-shadow: 0 0 0.5rem 0.5rem rgb(18, 181, 200);
+.Input:checked {
+  border: 2px solid rgb(102, 102, 251);
 }
 .social {
-  display: flex;
+  display: grid;
   text-align: center;
+  margin-top: 3vh;
+  margin-left: 20vw;
   width: 35%;
-  flex-direction: column;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 3vh;
   align-content: center;
   justify-content: center;
   align-items: center;
