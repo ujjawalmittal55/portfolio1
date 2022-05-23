@@ -43,7 +43,7 @@ function Contact() {
         initial={{ x: "-100vw" }}
         animate={{ x: 0 }}
         transition={{
-          duration: 2,
+          duration: 1,
           when: "beforeChildren",
           staggerChildren: 0.2,
         }}

@@ -38,12 +38,11 @@ function Display() {
       <div className="projects">
         <motion.svg
           drag
-          dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
           xmlns="http://www.w3.org/2000/svg"
           version="1.0"
-          margin-top="1px"
-          width="400"
-          height="400"
+          margin-top="0px"
+          width="600"
+          height="800"
           viewBox="0 0 413 1101"
         >
           <motion.path

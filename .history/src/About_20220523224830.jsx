@@ -8,14 +8,7 @@ function About() {
     audio.play();
   };
   return (
-    <motion.div
-      exit={{
-        y: "100vh",
-        opacity: 0,
-        transition: { ease: "easeInOut", duration: 1 },
-      }}
-      className="about"
-    >
+    <div className="about">
       <div className="details ">
         <h1>
           <motion.span className="nowrap">
@@ -27,6 +20,7 @@ function About() {
           initial={{ y: "100vh" }}
           animate={{ y: 0 }}
           transition={{ duration: 2, type: "fade" }}
+          exit={{ y: "100vh" }}
         >
           I am pursuing my graduation from IIT Indore in Mechanical Engineering
         </motion.p>
@@ -61,7 +55,7 @@ function About() {
           height="300"
         />
       </div>
-    </motion.div>
+    </div>
   );
 }
 

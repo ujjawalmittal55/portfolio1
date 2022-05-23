@@ -12,7 +12,7 @@ function About() {
       exit={{
         y: "100vh",
         opacity: 0,
-        transition: { ease: "easeInOut", duration: 1 },
+        transition: { ease: "easeInOut" duration:1 },
       }}
       className="about"
     >

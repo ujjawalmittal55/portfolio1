@@ -42,8 +42,8 @@ function Display() {
           xmlns="http://www.w3.org/2000/svg"
           version="1.0"
           margin-top="1px"
-          width="400"
-          height="400"
+          width="600"
+          height="600"
           viewBox="0 0 413 1101"
         >
           <motion.path

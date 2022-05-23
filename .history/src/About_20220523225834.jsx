@@ -12,7 +12,7 @@ function About() {
       exit={{
         y: "100vh",
         opacity: 0,
-        transition: { ease: "easeInOut", duration: 1 },
+        transition: { ease: "easeInOut", duration: 1000 },
       }}
       className="about"
     >
@@ -27,6 +27,7 @@ function About() {
           initial={{ y: "100vh" }}
           animate={{ y: 0 }}
           transition={{ duration: 2, type: "fade" }}
+          exit={{ y: "100vh" }}
         >
           I am pursuing my graduation from IIT Indore in Mechanical Engineering
         </motion.p>

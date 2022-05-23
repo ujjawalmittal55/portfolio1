@@ -1,11 +1,5 @@
 import React, { Component } from "react";
-import {
-  BrowserRouter,
-  Route,
-  Link,
-  Routes,
-  useLocation,
-} from "react-router-dom";
+import { BrowserRouter, Route, Link, Routes } from "react-router-dom";
 import Display from "./Display";
 import "./homepage.css";
 import SideBar from "./SideBar";
@@ -14,7 +8,6 @@ import Document from "./Document";
 import Contact from "./Contact";
 import { AnimatePresence } from "framer-motion";
 function Portfolio() {
-  const location = useLocation();
   return (
     <div className="Home">
       <div className="sidebar">
@@ -22,7 +15,7 @@ function Portfolio() {
       </div>
       <div className="main_content">
         <AnimatePresence>
-          <Routes location={location} key={location.key}>
+          <Routes>
             <Route path="/" element={<Display />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />

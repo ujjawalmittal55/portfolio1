@@ -42,11 +42,7 @@ function Contact() {
         className="form"
         initial={{ x: "-100vw" }}
         animate={{ x: 0 }}
-        transition={{
-          duration: 2,
-          when: "beforeChildren",
-          staggerChildren: 0.2,
-        }}
+        transition={{ duration: 1 }}
       >
         <motion.input
           variant={inputVariants}
