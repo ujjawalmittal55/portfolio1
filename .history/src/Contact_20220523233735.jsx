@@ -108,7 +108,6 @@ function Contact() {
           submit
         </motion.div>
       </motion.form>
-      <div className="photo"> </div>
       <motion.div
         className="social"
         variants={spanVariants}

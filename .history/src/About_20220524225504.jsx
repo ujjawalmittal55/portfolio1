@@ -58,8 +58,8 @@ function About() {
           class="image"
           animate={{ rotateZ: [30, -30] }}
           transition={{ duration: 0.5, yoyo: Infinity }}
-          width="300em"
-          height="300em"
+          width="300"
+          height="300"
         />
       </div>
     </motion.div>

@@ -24,7 +24,7 @@
   align-items: center;
 }
 .photo {
-  background-image: url("/public/human.png");
+  background-image: url("/public/contact.svg");
   height: 30vh;
   width: 30vh;
 }

@@ -12,7 +12,6 @@ import HomeIcon from "@mui/icons-material/Home";
 import HailIcon from "@mui/icons-material/Hail";
 import InsertDriveFileOutlinedIcon from "@mui/icons-material/InsertDriveFileOutlined";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
-import PollOutlinedIcon from "@mui/icons-material/PollOutlined";
 import { motion } from "framer-motion";
 
 function SideBar() {
@@ -38,16 +37,10 @@ function SideBar() {
             </motion.li>
           </Link>
           <Link to="/projects">
-            <motion.li
-              className="list"
-              whileHover={{ scale: 1.1, transition: { yoyo: Infinity } }}
-            >
-              <div className="list-div">
-                <PollOutlinedIcon>home</PollOutlinedIcon>
-              </div>
-            </motion.li>
+            <div className="list-div">
+              <HomeIcon>home</HomeIcon>
+            </div>
           </Link>
-
           <Link to="/contact">
             <li className="list">
               <div className="list-div">

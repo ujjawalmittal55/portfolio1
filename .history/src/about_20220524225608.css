@@ -14,8 +14,8 @@
   cursor: pointer;
   transform: scale(1.2);
 }
-@media screen and (max-width: 1024px) {
+@media (min-width< 768px) {
   .image {
-    display: none !important;
+    visibility: hidden;
   }
 }
